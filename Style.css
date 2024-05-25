@@ -1,0 +1,38 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   
+}
+header{
+    text-align: center;
+}
+
+.formulario{
+    background-color: blue;
+    padding: 100px;
+    width: 200px;
+    margin: auto;
+
+}
+.campo{
+   margin-bottom: 10px;
+   padding: 5px;
+   font-size: 22px;
+   text-align: justify;
+   color: white;
+}
+
+.campo input{
+    font-size: 20px;
+    margin-left:-28px;;
+    border-radius: 10px;
+    padding: 8px;
+}
+.accion{
+
+text-align: center;
+}
+   
+
+ 
+

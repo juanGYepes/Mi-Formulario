@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <div class="formulario">
+        <form action="">
+           <div class="campo">
+            <label for="lnom">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="lnom"
+            maxlength="10" placeholder="Digite nombre"
+            autocomplete="off"><br>
+        </div>
+            <div class="campo">
+            <label for="lcorreo">Correo electronico</label>
+            <input type="email" name="correo" id="lcorreo"><br>
+        </div>
+        <div class="campo">
+            <label for="lcelular">Telefono</label>
+            <input type="tel" name="celular" id="lcelular"
+            placeholder="10 digitos" pattern="[0-9]{10}"><br>
+        </div>
+            <div class="accion">
+            <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    </main>
+</body>
+</html>
